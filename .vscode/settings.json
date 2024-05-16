@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "*.rmd": "markdown",
+        "*.hujson": "jsonc",
+        "stdio.h": "c"
+    }
+}
