@@ -6,6 +6,9 @@
             "command": "/usr/bin/gcc-13",
             "args": [
                 "-fdiagnostics-color=always",
+                "-Wall",
+                "-Wextra",
+                "-Wconversion",
                 "-g",
                 "${file}",
                 "-o",
