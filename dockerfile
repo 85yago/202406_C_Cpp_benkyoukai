@@ -5,9 +5,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     curl \
     file \
     git \
-    gcc \
+    gcc-14 \
     gdb \
-    g++ \
+    g++-14 \
     make \
     libxft-dev \
     libxpm-dev \

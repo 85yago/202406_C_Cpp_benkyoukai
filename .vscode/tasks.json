@@ -2,13 +2,14 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: gcc-13 アクティブなファイルのビルド",
-            "command": "/usr/bin/gcc-13",
+            "label": "C/C++: gcc-14 アクティブなファイルのビルド",
+            "command": "/usr/bin/gcc-14",
             "args": [
                 "-fdiagnostics-color=always",
                 "-Wall",
                 "-Wextra",
                 "-Wconversion",
+                "-fanalyzer",
                 "-g",
                 "${file}",
                 "-o",
