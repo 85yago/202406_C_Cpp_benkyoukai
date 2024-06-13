@@ -2,8 +2,10 @@
     "files.associations": {
         "*.rmd": "markdown",
         "*.hujson": "jsonc",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "stdlib.h": "c"
     },
     "C_Cpp.default.cStandard": "gnu23",
-    "C_Cpp.default.cppStandard": "gnu++20"
+    "C_Cpp.default.cppStandard": "gnu++20",
+    "C_Cpp.default.compilerPath": "/usr/bin/gcc-14"
 }
