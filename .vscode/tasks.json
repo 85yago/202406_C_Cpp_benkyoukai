@@ -2,8 +2,8 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: gcc-14 アクティブなファイルのビルド",
-            "command": "/usr/bin/gcc-14",
+            "label": "C/C++: g++-14 アクティブなファイルのビルド",
+            "command": "/usr/bin/g++-14",
             "args": [
                 "-fdiagnostics-color=always",
                 "-Wall",
